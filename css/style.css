@@ -1,0 +1,117 @@
+/* PADDING */
+.mr-padding-20-10 {
+  padding: 20px 10px;
+}
+
+.mr-padding-80 {
+  padding: 80px 0;
+}
+
+.mr-padding-top-6 {
+  padding-top: 6px;
+}
+
+.mr-padding-top-20 {
+  padding-top: 20px;
+}
+
+/* MARGIN */
+.mr-margin-top-10 {
+  margin-top: 10px;
+}
+
+/* TEXT */
+/* FONT SIZE */
+.mr-font-size-60 {
+  font-size: 60px;
+}
+
+.mr-font-size-20 {
+  font-size: 20px;
+}
+
+/* TEXT DECORATION */
+.mr-underline {
+  text-decoration: underline;
+}
+
+/* COLOR */
+.mr-white {
+  color: #fff;
+}
+.mr-drk-blue {
+  color: #001638;
+}
+.mr-blue {
+  color: #0059E9;
+  border-color: #0059E9;
+}
+
+
+/* BACGKGROUND COLOR */
+.mr-background-light-blue {
+  background-color: #408FFA;
+}
+
+/* NAV */
+nav {
+  height: 65px;
+  padding-top: 25px;
+}
+
+ .mr-nav-logo img{
+  width: 60%;
+}
+@media all and (max-width: 991px) {
+  .mr-nav-logo img{
+    width: 200px;
+  }
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 19px;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+nav a:visited {
+  text-decoration: none;
+  color: inherit;
+} 
+nav a:link {
+  text-decoration: none;  
+}
+nav a:hover {
+  text-decoration: none;
+  color: #00D1CB;
+}
+
+#mr-burger-collapse li {
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+}
+
+
+/* JUMBOTRON */
+
+.mr-jumbotron {
+  background-image: url(../img/bg-banner-home.jpg);
+  background-size: cover;  
+}
+
+
+.mr-jumbotron-box {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
