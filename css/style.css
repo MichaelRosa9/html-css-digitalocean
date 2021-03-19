@@ -8,6 +8,7 @@ main p {
 .mr-position-relative {
   position: relative;
 }
+
 /* PADDING */
 .mr-padding-20-10 {
   padding: 20px 10px;
@@ -35,6 +36,10 @@ main p {
 
 .mr-padding-bottom-40 {
   padding-bottom: 40px;
+}
+
+.mr-padding-bottom-80 {
+  padding-bottom: 80px;
 }
 
 /* MARGIN */
@@ -81,6 +86,9 @@ main p {
   color: #0059E9;
   border-color: #0059E9;
 }
+.mr-light-blue {
+  color: #408FFA;
+}
 
 .mr-grey {
   color: #505F7B;
@@ -97,7 +105,7 @@ main p {
   background-color: #F1F3F8;
 }
 
-/* NAV */
+/* nav */
 nav {
   height: 65px;
   padding-top: 25px;
@@ -172,7 +180,7 @@ nav a:hover {
   width: 20px;
 }
 
-/* INNOVATE */
+/* innovate */
 #innovative [class*="col-"] {
   padding: 0;
   margin: 0;
@@ -201,4 +209,30 @@ nav a:hover {
     padding-left: 0;
   }
   
+}
+
+
+/* for-developers */
+#for-developers img {
+  width: 53%;
+}
+
+.mr-arrow {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 55px 25px 0;
+  font-size: 35px;
+}
+
+.mr-arrow-left {
+  opacity: 0.5;
+}
+
+.mr-carousel {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border: solid 1px;
+  border-radius: 50%;
+  border-color:inherit;
 }
