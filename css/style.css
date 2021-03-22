@@ -424,6 +424,7 @@ width: 60px;
   bottom: 0;
   margin: 0;
   width: 250px;
+  border-radius: 5px;
 }
 .mr-shark .mr-speech-bubble::after {
   content: '';
