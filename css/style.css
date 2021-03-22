@@ -227,11 +227,20 @@ nav a:hover {
   border-radius: 10px;
 }
 
+
 .mr-google-icon img{
   position: absolute;
   left: 2%;
   width: 20px;
 }
+
+/* responsive */
+@media all and (max-width:767px) {
+  .mr-jumbotron-box {
+    margin: 0 10%;
+  }
+}
+
 
 /* innovate */
 #innovative [class*="col-"] {
