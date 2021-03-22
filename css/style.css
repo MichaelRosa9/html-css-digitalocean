@@ -442,4 +442,24 @@ width: 60px;
   .mr-shark {    
     left: 0;    
   }
+
+  .mr-shark .mr-speech-bubble {
+    position: absolute;
+    left: 70px;
+    bottom: 0;
+    margin: 0;
+    width: 250px;
+  }
+  .mr-shark .mr-speech-bubble::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid white;
+    transform: rotate(90deg);
+  }
 }
