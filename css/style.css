@@ -14,6 +14,9 @@ main p {
   padding: 20px 10px;
 }
 
+.mr-padding-50 {
+  padding: 50px 0;
+}
 .mr-padding-80 {
   padding: 80px 0;
 }
@@ -42,6 +45,9 @@ main p {
   padding-bottom: 80px;
 }
 
+.mr-padding-right-10 {
+  padding-right: 10px;
+}
 .mr-padding-right-50 {
   padding-right: 50px;
 }
@@ -74,20 +80,29 @@ main p {
 
 /* TEXT */
 /* FONT SIZE */
-.mr-font-size-60 {
-  font-size: 60px;
-}
 
 .mr-font-size-20 {
   font-size: 20px;
 }
+
 .mr-font-size-23 {
   font-size: 23px;
+}
+
+.mr-font-size-60 {
+  font-size: 60px;
 }
 
 /* TEXT DECORATION */
 .mr-underline {
   text-decoration: underline;
+}
+
+
+/* BORDER */
+
+.mr-border-grey {
+  border: solid 1px #505F7B;
 }
 
 /* COLOR */
@@ -184,6 +199,7 @@ nav a:hover {
   margin: 20px 0;
   width: 100%;
 }
+
 
 
 /* JUMBOTRON */
@@ -286,3 +302,31 @@ nav a:hover {
   }
 
 }
+
+/* development-teams */
+
+.mr-carousel-rockerbox {
+  padding: 0 10%;
+}
+.mr-rockerbox {
+  display: inline-block;
+  max-width: 600px;
+  min-width: 305px;
+}
+
+#development-teams .mr-arrow {
+  margin-top: 0;
+  margin-bottom: 150px;
+}
+
+/* responsive */ 
+/* @media all and(max-width: 767px) {
+  .mr-rockerbox {
+      
+  }
+}
+@media all and(max-width: 991px) {
+  .mr-rockerbox {
+    width: 375px;    
+  }
+} */
