@@ -42,6 +42,14 @@ main p {
   padding-bottom: 80px;
 }
 
+.mr-padding-right-50 {
+  padding-right: 50px;
+}
+
+.mr-padding-left-50 {
+  padding-left: 50px;
+}
+
 /* MARGIN */
 .mr-margin-20 {
   margin: 20px 0;
@@ -62,6 +70,7 @@ main p {
 .mr-margin-right-0 {
   margin-right: 0;
 }
+
 
 /* TEXT */
 /* FONT SIZE */
@@ -99,6 +108,13 @@ main p {
 .mr-grey {
   color: #505F7B;
 }
+.mr-light-grey {
+  color: lightgrey;
+}
+
+.mr-light-green {
+  color: #00D1CB;
+}
 
 /* BACGKGROUND COLOR */
 .mr-background-white {
@@ -109,6 +125,10 @@ main p {
 }
 .mr-background-light-grey {
   background-color: #F1F3F8;
+}
+.mr-background-gradient-blue{
+  background: rgb(0,28,139);
+  background: linear-gradient(0deg, rgba(0,28,139,1) 0%, rgba(0,63,185,1) 44%);
 }
 
 /* nav */
@@ -241,4 +261,28 @@ nav a:hover {
   border: solid 1px;
   border-radius: 50%;
   border-color:inherit;
+}
+
+/* service-customer */
+
+
+.mr-row-table .col-xs-12{
+  position: relative;
+  padding: 15px 0;
+}
+
+.mr-border-bottom::after {
+  position: absolute;
+  bottom: 0;
+  border-bottom: solid 1px white;
+  width: 105%;
+}
+
+/* responsive */
+@media all and (max-width: 1199px){
+  .mr-column-responsive{
+  padding-left: 15px;
+  margin-top: 50px;
+  }
+
 }
