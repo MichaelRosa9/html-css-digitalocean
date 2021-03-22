@@ -1,8 +1,10 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 main p {
   color: #505F7B;
 }
-
-
 
 /* POSITION */
 .mr-position-relative {
@@ -309,9 +311,11 @@ nav a:hover {
 
 .mr-border-bottom::after {
   position: absolute;
-  bottom: 0;
-  border-bottom: solid 1px white;
-  width: 105%;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: solid 1px white;
+    width: 105%;
 }
 
 /* responsive */
@@ -323,6 +327,7 @@ nav a:hover {
 }
 @media all and (max-width: 767px) {
   .mr-media-table {
+    font-size: 12px;
     padding: 0 50px;
   }
   .mr-media-table .col-xs-12 {
