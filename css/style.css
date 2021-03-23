@@ -6,6 +6,7 @@ main p {
   color: #505F7B;
 }
 
+
 /* POSITION */
 .mr-position-relative {
   position: relative;
@@ -239,7 +240,7 @@ nav a:hover {
 /* responsive */
 @media all and (max-width:767px) {
   .mr-jumbotron-box {
-    margin: 0 10%;
+    margin: 0 3%;
   }
 }
 
@@ -302,11 +303,12 @@ nav a:hover {
 }
 
 /* service-customer */
-
-
 .mr-row-table .col-xs-12{
   position: relative;
   padding: 15px 20px 15px 0;
+}
+#service-customer a:hover {
+  color:white;
 }
 
 .mr-border-bottom::after {
@@ -430,18 +432,19 @@ width: 60px;
   margin: 0;
   width: 250px;
   border-radius: 5px;
+  box-shadow: 1px 1px 2px #767b85;
 }
 .mr-shark .mr-speech-bubble::after {
   content: '';
   position: absolute;
-  top: 18px;
-  right: -5px;
+  top: 17px;
+  right: -7px;
   width: 0;
   height: 0;
-  border-right: 20px solid transparent;
-  border-left: 20px solid white;
-  border-bottom: 20px solid transparent;
-  transform: rotate(135deg);
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid white;
+  transform: rotate(315deg);  
+  box-shadow: 1px 1px 1px  #767b85;
 }
 
 @media all and (max-width: 991px) {
@@ -455,17 +458,18 @@ width: 60px;
     bottom: 0;
     margin: 0;
     width: 250px;
+    box-shadow: 0px 1px 2px #767b85;
   }
   .mr-shark .mr-speech-bubble::after {
     content: '';
     position: absolute;
-    top: 10px;
-    left: -20px;
+    top: 15px;
+    left: -7px;
     width: 0;
     height: 0;
-    border-right: 10px solid transparent;
-    border-left: 10px solid transparent;
-    border-top: 10px solid white;
-    transform: rotate(90deg);
+    border-left: 15px solid transparent;
+    border-bottom: 15px solid white;    
+    transform: rotate(135deg);
+    box-shadow: 1px 1px 0px  #767b85;
   }
 }
