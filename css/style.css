@@ -72,11 +72,18 @@ main p {
 .mr-margin-20 {
   margin: 20px 0;
 }
+
+
 .mr-margin-top-10 {
   margin-top: 10px;
 }
+
 .mr-margin-top-30 {
   margin-top: 30px;
+}
+
+.mr-margin-top-40 {
+  margin-top: 40px;
 }
 
 .mr-margin-left-10 {
