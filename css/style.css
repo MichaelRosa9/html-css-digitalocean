@@ -244,17 +244,36 @@ nav a:hover {
 }
 
 /* responsive */
-@media all and (max-width:767px) {
+
+/* xs */
+@media all and (max-width:480px) {
+  .mr-jumbotron-media-md h1 {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .mr-jumbotron-media-md p {
+    font-size: 16px;
+  }
+  .mr-jumbotron-box h2 {
+    font-size: 23px;
+  }
+}
+
+/* sm */
+@media all and (min-width:481px)
+and (max-width:767px) {
   .mr-jumbotron-box {
     margin: 0 3%;
   }
 
   .mr-jumbotron-media-md h1 {
-    font-size: 52px;
+    font-size: 58px;
+    font-weight: 500;
   }
 
   .mr-jumbotron-media-md p {
-    font-size: 30px;
+    font-size: 32px;
   }
 
   .mr-jumbotron-box h2 {
@@ -263,6 +282,7 @@ nav a:hover {
   
 }
 
+/* md */
 @media all and (min-width: 768px)
 and (max-width: 991px) {
   .container {
