@@ -110,6 +110,9 @@ main p {
 
 
 /* BORDER */
+.mr-border-none {
+  border: none;
+}
 
 .mr-border-grey {
   border: solid 1px #505F7B;
@@ -245,6 +248,19 @@ nav a:hover {
   .mr-jumbotron-box {
     margin: 0 3%;
   }
+
+  .mr-jumbotron-media-md h1 {
+    font-size: 52px;
+  }
+
+  .mr-jumbotron-media-md p {
+    font-size: 30px;
+  }
+
+  .mr-jumbotron-box h2 {
+    font-size: 30px;
+  }
+  
 }
 
 @media all and (min-width: 768px)
@@ -255,7 +271,13 @@ and (max-width: 991px) {
   .mr-jumbotron-media-md h1 {
     font-size: 36px;
     margin-top: 10px;
+    font-weight: 500;
   }  
+
+  .mr-jumbotron-media-md p {
+    font-size: 23px;
+    font-weight: 400;
+  }
 }
 
 
